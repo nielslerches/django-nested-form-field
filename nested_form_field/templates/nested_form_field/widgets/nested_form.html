@@ -1,0 +1,5 @@
+<div>
+{% for subwidget in widget.subwidgets %}
+    {% include subwidget.template_name with widget=subwidget %}
+{% endfor %}
+</div>
