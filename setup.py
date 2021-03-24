@@ -11,6 +11,7 @@ setup(
     description="nest django forms as fields in other forms",
     license="MIT",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Niels Lerche Sørensen",
     url="https://github.com/ebanalyse/django-nested-form-field",
     packages=["nested_form_field"],
