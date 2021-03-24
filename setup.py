@@ -14,5 +14,5 @@ setup(
     author="Niels Lerche Sørensen",
     url="https://github.com/ebanalyse/django-nested-form-field",
     packages=["nested_form_field"],
-    install_requires=["wheel", "django>=3.1"],  # external packages as dependencies
+    install_requires=["django>=3.1"],  # external packages as dependencies
 )
