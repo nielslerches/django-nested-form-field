@@ -15,10 +15,10 @@ jobs:
           python-version: 3.9
       # Installs and upgrades pip, installs other dependencies and installs the package from setup.py
       - name: "Installs and upgrades pip, installs other dependencies and installs the package from setup.py"
-        run: ./scripts/install.sh
+        run: ./install.sh
   test:
     runs-on: ubuntu-latest
     needs: [install]
     steps:
       - name: Test with unittest
-        run: ./scripts/test.sh
+        run: ./test.sh
